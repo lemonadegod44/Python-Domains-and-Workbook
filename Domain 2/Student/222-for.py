@@ -1,5 +1,5 @@
 positions = 10
-for p in range(1,10):
+for p in range(1,10+1):
     print ("You are in position", p)
 
 for m in range(1,27):
