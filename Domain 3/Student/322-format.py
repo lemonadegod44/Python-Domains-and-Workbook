@@ -3,3 +3,4 @@ level = 3
 player1 = "Stacey"
 
 print("Player1:", player1, "Score:", score, "Level:", level)
+print("{2} has {0} points and has reached level {1}".format(score, level, player1))
