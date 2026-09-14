@@ -3,9 +3,9 @@ import unittest
 class TestMain(unittest.TestCase):
     
     def test_values(self):
-        a = 'Vilnius'
+        a = 'vilnius'
         b = ['vilnius','riga','tallinn']
-        self.#assert test needed
+        self.assertIn(a,b)
 
 if __name__ == '__main__':
     unittest.main()  
